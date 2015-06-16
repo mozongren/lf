@@ -10,6 +10,7 @@ class LoginController extends Controller {
 			$username=$_POST['username'];
 			$password=$_POST['password'];
 			/*
+			 * 验证码判断
 			$code=$_POST['code'];
 			if(md5($code)!=$_SESSION['code']){
 				$this->error('验证码不正确');
@@ -36,6 +37,7 @@ class LoginController extends Controller {
                  $mes['url'] = '';
                  $this->ajaxReturn($mes,'JSON');
 			}
+			
 	}
 	//退出
 	public function logout(){
