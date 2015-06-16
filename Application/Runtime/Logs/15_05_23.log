@@ -1,0 +1,143 @@
+[ 2015-05-23T15:20:53+08:00 ] 127.0.0.1 /lf/admin/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.090878s ]
+SQL: SELECT `uid` FROM `cms_user` WHERE ( `user_name` = 'admin' ) AND ( `password` = 'admin' ) LIMIT 1   [ RunTime:0.003706s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\lf\Application\Admin\Controller\LoginController.class.php 第 28 行.
+
+[ 2015-05-23T15:26:22+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:27:04+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:28:49+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:28:50+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:28:50+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:29:38+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:30:02+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:32:15+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:32:16+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:32:16+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:32:16+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:32:16+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:32:17+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:32:49+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:32:49+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:32:50+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:33:37+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:33:37+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:33:38+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:33:38+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:33:38+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:35:10+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:35:10+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:35:10+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:35:10+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:35:11+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:36:12+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:36:37+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:40:34+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:42:52+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:42:53+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:42:53+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:45:50+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:45:51+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:45:51+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:46:34+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:46:35+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:46:35+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:46:35+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:48:31+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:48:31+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:48:32+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:49:41+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:49:41+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-05-23T15:49:41+08:00 ] 127.0.0.1 /lf/Admin/content/index.html
+ERR: Think\Model:relation方法不存在！
+

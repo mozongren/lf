@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>拼图后台管理-后台管理</title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/pintuer.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+    <script src="__PUBLIC__/admin/js/jquery.js"></script>
+    <script src="__PUBLIC__/admin/js/pintuer.js"></script>
+    <script src="__PUBLIC__/admin/js/respond.js"></script>
+    <script src="__PUBLIC__/admin/js/admin.js"></script>
+   
+    <js href="__PUBLIC__/js/jquery-1.11.0.min.js" />
+    <js href="__PUBLIC__/ueditor/ueditor.config.js" />    
+    <js href="__PUBLIC__/ueditor/ueditor.all.min.js" />
+
+     <js href="__PUBLIC__/laydate/laydate.js" />
+    
+    <link type="image/x-icon" href="http://www.pintuer.com/favicon.ico" rel="shortcut icon" />
+    <link href="http://www.pintuer.com/favicon.ico" rel="bookmark icon" />
+</head>
+
+<body>
+<include file="Public/header" />
+<div class="admin">
+     <table class="table table-condensed" id="layout-table">
+        <tr>
+            <td><div class="lable text-right height-large">上级栏目</div></td>
+            <td><select class="input input-select">
+                            <option>起步</option>
+                            <option>CSS</option>
+                            <option>元件</option>
+                            <option>模块</option>
+                            <option>javascript组件</option>
+                </select></td>
+            <td><div class="lable height-large">栏目图片</div></td>
+            <td><a class="button input-file" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="logo" data-validate="required:请选择上传文件,regexp#.+.(jpg|jpeg|png|gif)$:只能上传jpg|gif|png格式文件" /></a>
+                        <a>&nbsp&nbsp<img src="__PUBLIC__/admin/images/status_1.gif"><img src="__PUBLIC__/admin/images/status_0.gif"></a></td>
+        </tr>       
+        <tr>
+            <td><div class="lable text-right height-large">栏目标题</div></td>
+            <td> <input type="text" class="input input-text" id="title" name="title" size="50" placeholder="文章标题" data-validate="required:请填写文章标题" />
+            </td>
+            <td><div class="lable height-large">发布时间</div></td>
+            <td><input type="text" class="input-time input laydate-icon" id="addtime" name="addtime" size="50" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" />
+            </td>
+        </tr> 
+        <tr>
+            <td><div class="lable text-right height-large">SEO关键词</div></td>
+            <td> <input type="text" class="input input-text" id="keywords" name="keywords" size="50" placeholder="站点关键词，用于搜索引擎优化" />
+            </td>
+            <td><div class="lable height-large">栏目排序</div></td>
+            <td><input type="text" class="input input-text" id="title" name="title" size="50" placeholder="文章排序默认999" data-validate="plusinteger:请输入整数数字" /></td>
+        </tr>  
+         <tr>
+            <td><div class="lable text-right height-large">SEO描述</div></td>
+            <td><textarea d="desc" name="desc" class="input textarea-text" rows="5" cols="50" placeholder="网站的描述，用于搜索引擎优化"></textarea>
+            </td>
+            <td><div class="lable height-large">栏目图片</div></td>
+            <td> <input type="text" class="input input-text" id="title" name="title" size="50" placeholder="文章标题" data-validate="required:请填写文章标题" /></td>
+        </tr>  
+
+     </table>
+    
+</div>
+
+  <script>
+    $(function(){
+        var url='{:U('Admin/Ueditor/Index')}';
+        var ue = UE.getEditor('container',{
+            allowDivTransToP: false,
+            initialFrameHeight:300,
+            initialFrameWidth:980,
+            serverUrl :url,
+            UEDITOR_HOME_URL:'__PUBLIC__/ueditor/',
+        });
+
+        ue.ready(function(){
+            ue.execCommand('serverparam', {
+                'userid': '1',
+                'username': 'admin',
+            });
+        });
+
+    });
+    laydate.skin('molv')
+    </script>
+</body>
+</html>

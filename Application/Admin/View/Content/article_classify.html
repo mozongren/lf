@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>拼图后台管理-后台管理</title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/pintuer.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+    <script src="__PUBLIC__/admin/js/jquery.js"></script>
+    <script src="__PUBLIC__/admin/js/pintuer.js"></script>
+    <script src="__PUBLIC__/admin/js/respond.js"></script>
+    <script src="__PUBLIC__/admin/js/admin.js"></script>
+	<script src="__PUBLIC__/admin/js/common.js"></script>
+    <link type="image/x-icon" href="http://www.pintuer.com/favicon.ico" rel="shortcut icon" />
+    <link href="http://www.pintuer.com/favicon.ico" rel="bookmark icon" />
+</head>
+
+<body>
+<include file="Public/header" />
+
+<div class="admin">
+	<form method="post">
+    <div class="panel admin-panel">
+    	<div class="panel-head"><strong>内容列表</strong></div>
+        <div class="padding border-bottom">
+            <input type="button" class="button button-small border-green" value="添加文章" />
+            <input type="button" class="button button-small border-yellow" value="批量删除" />
+            <input type="button" class="button button-small border-blue" value="回收站" />
+      			<form>
+      			<input class="input input-auto" />
+      			<select class="input input-auto">
+      				<option>&nbsp起步</option>
+      				<option>CSS</option>
+      				<option>元件</option>
+      				<option>模块</option>
+      				<option>javascript组件</option>
+      			</select>
+      			<button class="button" type="submit">查找</button>
+      			</form>
+        </div>
+        <table id="list-table" class="table table-hover table-condensed">
+        <tr class="">	
+        	    
+		    <th class="text-center" width="385">分类名称</th>
+				<th width="">状态</th>
+				<th width="">添加时间</th>
+				<th width="">修改时间</th>
+				<th width="">排序</th>
+				<th width="">操作</th>
+			  </tr>
+			  <foreach name="arr_cate" item="cate">
+			  <tr class="{$cate.level}" id="{$cate.level}_{$cate.id}">
+      
+				<td align="left" >
+				  <img src="__PUBLIC__/admin/images/menu_minus.gif" id="icon_{$cate.level}_{$cate.id}" width="9" height="9" border="0" style="margin-left:{$cate.level}em;vertical-align:middle;" onclick="rowClicked(this)" />
+				  <span><a href="">{$cate.title}</a></span>
+				</td>
+				<td ><img src="__PUBLIC__/admin/images/status_{$cate.status}.gif" /></td>
+				<td >{$cate.add_time}</td>
+				<td >{$cate.update_time|date="Y-m-d",###}</td>
+				<td >{$cate.sort}</td>
+				<td >
+				  <a class="button border-green button-little" href="{:U('content/addClassify')}">添加下级</a>
+					<a class="button border-blue button-little" href="#">修改</a>
+					<a class="button border-yellow button-little" href="#" onclick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
+				</td>
+			  </tr>
+			  </foreach>
+			
+           </table>
+       
+    </div>
+    </form>
+    <br />
+</div>
+<script type="text/javascript">
+<!--
+var imgPlus = new Image();
+imgPlus.src = "__PUBLIC__/admin/images/menu_plus.gif";
+
+/**
+ * 折叠分类列表
+ */
+function rowClicked(obj){
+  // 当前图像
+  img = obj;
+  // 取得上二级tr>td>img对象
+  obj = obj.parentNode.parentNode;
+  // 整个分类列表表格
+  var tbl = document.getElementById("list-table");
+  // 当前分类级别
+  var lvl = parseInt(obj.className);
+  // 是否找到元素
+  var fnd = false;
+  var sub_display = img.src.indexOf('menu_minus.gif') > 0 ? 'none' : (Browser.isIE) ? 'block' : 'table-row' ;
+  // 遍历所有的分类
+  for (i = 0; i < tbl.rows.length; i++) {
+      var row = tbl.rows[i];
+      if (row == obj) {
+          // 找到当前行
+          fnd = true;
+          //document.getElementById('result').innerHTML += 'Find row at ' + i +"<br/>";
+      } else {
+          if (fnd == true) {
+              var cur = parseInt(row.className);
+              var icon = 'icon_' + row.id;
+              if (cur > lvl) {
+                  row.style.display = sub_display;
+                  if (sub_display != 'none') {
+                      var iconimg = document.getElementById(icon);
+                      iconimg.src = iconimg.src.replace('plus.gif', 'minus.gif');
+                  }
+              } else {
+                  fnd = false;
+                  break;
+              }
+          }
+      }
+  }
+
+  for (i = 0; i < obj.cells[0].childNodes.length; i++) {
+      var imgObj = obj.cells[0].childNodes[i];
+      if (imgObj.tagName == "IMG" && imgObj.src != '__PUBLIC__/admin/images/menu_arrow.gif') {
+          imgObj.src = (imgObj.src == imgPlus.src) ? '__PUBLIC__/admin/images/menu_minus.gif' : imgPlus.src;
+      }
+  }
+}
+//-->
+</script> 
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>拼图后台管理-后台管理</title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/pintuer.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+    <script src="__PUBLIC__/admin/js/jquery.js"></script>
+    <script src="__PUBLIC__/admin/js/pintuer.js"></script>
+    <script src="__PUBLIC__/admin/js/respond.js"></script>
+    <script src="__PUBLIC__/admin/js/admin.js"></script>
+   
+    <js href="__PUBLIC__/js/jquery-1.11.0.min.js" />
+    <js href="__PUBLIC__/ueditor/ueditor.config.js" />    
+    <js href="__PUBLIC__/ueditor/ueditor.all.min.js" />
+
+     <js href="__PUBLIC__/laydate/laydate.js" />
+    
+    <link type="image/x-icon" href="http://www.pintuer.com/favicon.ico" rel="shortcut icon" />
+    <link href="http://www.pintuer.com/favicon.ico" rel="bookmark icon" />
+</head>
+
+<body>
+<include file="Public/header" />
+<div class="admin">
+        <div class="tab-panel">
+            <form method="post" class="form-x" action="system.html">
+                 <div class="form-group">
+                    <div class="label"><label for="title">文章栏目</label></div>
+                    <div class="field">
+                        <select class="input input-select">
+                            <option>起步</option>
+                            <option>CSS</option>
+                            <option>元件</option>
+                            <option>模块</option>
+                            <option>javascript组件</option>
+                         </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label"><label for="title">文章标题</label></div>
+                    <div class="field">
+                        <input type="text" class="input input-text" id="title" name="title" size="50" placeholder="文章标题" data-validate="required:请填写文章标题" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label"><label for="keywords">SEO关键词</label></div>
+                    <div class="field">
+                        <input type="text" class="input input-text" id="keywords" name="keywords" size="50" placeholder="站点关键词，用于搜索引擎优化" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label"><label for="desc">SEO描述</label></div>
+                    <div class="field">
+                        <textarea d="desc" name="desc" class="input textarea-text" rows="5" cols="50" placeholder="网站的描述，用于搜索引擎优化"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label"><label for="logo">文章图片</label></div>
+                    <div class="field">
+                        <a class="button input-file" href="javascript:void(0);">+ 浏览文件<input size="100" type="file" name="logo" data-validate="required:请选择上传文件,regexp#.+.(jpg|jpeg|png|gif)$:只能上传jpg|gif|png格式文件" /></a>
+                        <a>&nbsp&nbsp<img src="__PUBLIC__/admin/images/status_1.gif"></a>
+                    </div>
+
+                </div>
+               
+                <div class="form-group">
+                    <div class="label"><label for="keywords">发布时间</label></div>
+                    <div class="field">
+                        <input type="text" class="input-time input laydate-icon" id="addtime" name="addtime" size="50" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label"><label for="title">文章排序</label></div>
+                    <div class="field">
+                        <input type="text" class="input input-text" id="title" name="title" size="50" placeholder="文章排序默认999" data-validate="plusinteger:请输入整数数字" />
+                    </div>
+                </div>
+                 <div class="form-group">
+                    <div class="label"><label for="title">设为推荐</label></div>
+                    <div class="field">
+                         <div class="button-group radio">
+                            <label class="button"><input name="recommend" value="yes" checked="checked" type="radio"><span class="icon icon-check"></span>是</label>
+                            <label class="button active"><input name="recommend" value="no" type="radio"><span class="icon icon-times"></span>否</label>
+                         </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label"><label for="container">详细内容</label></div>
+                    <div class="field">
+                        <textarea class="ueditor" id="container" name="container"></textarea>
+                    </div>
+                </div>
+                <br/> <br/>
+                <div class="clear"></div>
+                <div class="form-button"><button class="button bg-main" type="submit">提交</button></div>
+            </form>
+            </div>
+
+    
+</div>
+
+  <script>
+    $(function(){
+        var url='{:U('Admin/Ueditor/Index')}';
+        var ue = UE.getEditor('container',{
+            serverUrl :url,
+            UEDITOR_HOME_URL:'__PUBLIC__/ueditor/',
+        });
+
+        ue.ready(function(){
+            ue.execCommand('serverparam', {
+                'userid': '1',
+                'username': 'admin',
+            });
+        });
+
+    });
+    laydate.skin('molv')
+    </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+[ 2015-04-21T14:11:16+08:00 ] 127.0.0.1 /lf/Admin/main/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:11:17+08:00 ] 127.0.0.1 /lf/Admin/main/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:11:17+08:00 ] 127.0.0.1 /lf/Admin/main/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:11:17+08:00 ] 127.0.0.1 /lf/Admin/main/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:11:17+08:00 ] 127.0.0.1 /lf/Admin/main/js/admin.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:11:17+08:00 ] 127.0.0.1 /lf/Admin/main/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:11:32+08:00 ] 127.0.0.1 /lf/Admin/main/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:11:32+08:00 ] 127.0.0.1 /lf/Admin/main/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:11:32+08:00 ] 127.0.0.1 /lf/Admin/main/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:11:32+08:00 ] 127.0.0.1 /lf/Admin/main/js/admin.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:11:32+08:00 ] 127.0.0.1 /lf/Admin/main/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:11:32+08:00 ] 127.0.0.1 /lf/Admin/main/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:12:43+08:00 ] 127.0.0.1 /lf/Admin/main/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:12:43+08:00 ] 127.0.0.1 /lf/Admin/main/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:12:43+08:00 ] 127.0.0.1 /lf/Admin/main/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:12:43+08:00 ] 127.0.0.1 /lf/Admin/main/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:12:43+08:00 ] 127.0.0.1 /lf/Admin/main/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:12:43+08:00 ] 127.0.0.1 /lf/Admin/main/js/admin.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:13:02+08:00 ] 127.0.0.1 /lf/Admin/main/article/article_classify
+ERR: 非法操作:article
+
+[ 2015-04-21T14:13:20+08:00 ] 127.0.0.1 /lf/Admin/article/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:13:20+08:00 ] 127.0.0.1 /lf/Admin/article/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:13:20+08:00 ] 127.0.0.1 /lf/Admin/article/js/admin.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:13:20+08:00 ] 127.0.0.1 /lf/Admin/article/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:13:20+08:00 ] 127.0.0.1 /lf/Admin/article/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:13:20+08:00 ] 127.0.0.1 /lf/Admin/article/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:28:26+08:00 ] 127.0.0.1 /lf/Admin/system.html
+ERR: 无法加载控制器:System
+
+[ 2015-04-21T14:28:31+08:00 ] 127.0.0.1 /lf/Admin/content.html
+ERR: 无法加载控制器:Content
+
+[ 2015-04-21T14:28:37+08:00 ] 127.0.0.1 /lf/admin/article
+ERR: 非法操作:index
+
+[ 2015-04-21T14:40:50+08:00 ] 127.0.0.1 /lf/Admin/main/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:40:50+08:00 ] 127.0.0.1 /lf/Admin/main/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-04-21T14:40:50+08:00 ] 127.0.0.1 /lf/Admin/main/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:40:50+08:00 ] 127.0.0.1 /lf/Admin/main/js/admin.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:40:50+08:00 ] 127.0.0.1 /lf/Admin/main/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:40:50+08:00 ] 127.0.0.1 /lf/Admin/main/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-21T14:41:27+08:00 ] 127.0.0.1 /lf/admin/content.html
+ERR: 无法加载控制器:Content
+
+[ 2015-04-21T14:41:31+08:00 ] 127.0.0.1 /lf/admin/system.html
+ERR: 无法加载控制器:System
+
+[ 2015-04-21T15:38:54+08:00 ] 127.0.0.1 /lf/Admin/system.html
+ERR: 无法加载控制器:System
+
+[ 2015-04-21T15:39:29+08:00 ] 127.0.0.1 /lf/Admin/system.html
+ERR: 无法加载控制器:System
+
+[ 2015-04-21T16:05:43+08:00 ] 127.0.0.1 /lf/Admin/article/article_classify
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mycms.cms_article_type' doesn't exist
+
+[ 2015-04-21T16:08:00+08:00 ] 127.0.0.1 /lf/Admin/article/article_classify
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order asc' at line 1
+
+[ 2015-04-21T16:08:48+08:00 ] 127.0.0.1 /lf/Admin/article/article_classify
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1
+
+[ 2015-04-21T16:08:48+08:00 ] 127.0.0.1 /lf/Admin/article/article_classify
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1
+
+[ 2015-04-21T16:09:51+08:00 ] 127.0.0.1 /lf/Admin/article/article_classify
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1
+
+[ 2015-04-21T16:10:18+08:00 ] 127.0.0.1 /lf/Admin/article/article_classify
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1
+

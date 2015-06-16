@@ -1,0 +1,120 @@
+[ 2015-04-30T10:37:49+08:00 ] 127.0.0.1 /lf/about.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'qdm148619239_db.cms_articlea' doesn't exist
+
+[ 2015-04-30T10:37:50+08:00 ] 127.0.0.1 /lf/about.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'qdm148619239_db.cms_articlea' doesn't exist
+
+[ 2015-04-30T10:38:08+08:00 ] 127.0.0.1 /lf/about.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'qdm148619239_db.cms_articlea' doesn't exist
+
+[ 2015-04-30T11:02:20+08:00 ] 127.0.0.1 /lf/Index-article-id-Arrayid.html
+ERR: 非法操作:article
+
+[ 2015-04-30T11:03:35+08:00 ] 127.0.0.1 /lf/Index-article-id-id.html
+ERR: 非法操作:article
+
+[ 2015-04-30T11:04:44+08:00 ] 127.0.0.1 /lf/Index-article-id-%24article.title.html
+ERR: 非法操作:article
+
+[ 2015-04-30T11:07:02+08:00 ] 127.0.0.1 /lf/Index-article-id-id.html
+ERR: 非法操作:article
+
+[ 2015-04-30T11:10:00+08:00 ] 127.0.0.1 /lf/Index-article-id-id.html
+ERR: 非法操作:article
+
+[ 2015-04-30T11:14:44+08:00 ] 127.0.0.1 /lf/Index-article-id-Arraytid.html
+ERR: 非法操作:article
+
+[ 2015-04-30T11:15:32+08:00 ] 127.0.0.1 /lf/Index-article.html
+ERR: 非法操作:article
+
+[ 2015-04-30T11:16:29+08:00 ] 127.0.0.1 /lf/Index-article-id-2.html
+ERR: 非法操作:article
+
+[ 2015-04-30T11:17:10+08:00 ] 127.0.0.1 /lf/article-id-1.html
+ERR: 非法操作:id
+
+[ 2015-04-30T11:17:43+08:00 ] 127.0.0.1 /lf/article-id-1.html
+ERR: 非法操作:id
+
+[ 2015-04-30T11:21:33+08:00 ] 127.0.0.1 /lf/article-id-1.html
+ERR: 非法操作:id
+
+[ 2015-04-30T11:21:52+08:00 ] 127.0.0.1 /lf/article-id-1.html
+ERR: 非法操作:article_des
+
+[ 2015-04-30T11:22:44+08:00 ] 127.0.0.1 /lf/css/pintuer.css
+ERR: 无法加载控制器:Css/pintuer.css
+
+[ 2015-04-30T11:22:44+08:00 ] 127.0.0.1 /lf/css/style.css
+ERR: 无法加载控制器:Css/style.css
+
+[ 2015-04-30T11:22:44+08:00 ] 127.0.0.1 /lf/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js/jquery
+
+[ 2015-04-30T11:22:44+08:00 ] 127.0.0.1 /lf/js/pintuer.js
+ERR: 无法加载控制器:Js/pintuer.js
+
+[ 2015-04-30T11:22:44+08:00 ] 127.0.0.1 /lf/js/respond.js
+ERR: 无法加载控制器:Js/respond.js
+
+[ 2015-04-30T11:23:37+08:00 ] 127.0.0.1 /lf/css/pintuer.css
+ERR: 无法加载控制器:Css/pintuer.css
+
+[ 2015-04-30T11:23:37+08:00 ] 127.0.0.1 /lf/css/style.css
+ERR: 无法加载控制器:Css/style.css
+
+[ 2015-04-30T11:23:37+08:00 ] 127.0.0.1 /lf/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js/jquery
+
+[ 2015-04-30T11:23:37+08:00 ] 127.0.0.1 /lf/js/pintuer.js
+ERR: 无法加载控制器:Js/pintuer.js
+
+[ 2015-04-30T11:23:37+08:00 ] 127.0.0.1 /lf/js/respond.js
+ERR: 无法加载控制器:Js/respond.js
+
+[ 2015-04-30T11:34:28+08:00 ] 127.0.0.1 /lf/
+ERR: 表达式错误:NOT
+
+[ 2015-04-30T11:34:43+08:00 ] 127.0.0.1 /lf/
+ERR: 表达式错误:[NOT] IN
+
+[ 2015-04-30T11:35:47+08:00 ] 127.0.0.1 /lf/
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY recommend desc,add_time desc LIMIT 4' at line 1
+
+[ 2015-04-30T11:50:28+08:00 ] 127.0.0.1 /lf/Public/css/pintuer.css
+ERR: 无法加载控制器:Public/css/pintuer.css
+
+[ 2015-04-30T11:50:28+08:00 ] 127.0.0.1 /lf/Public/css/admin.css
+ERR: 无法加载控制器:Public/css/admin.css
+
+[ 2015-04-30T11:50:28+08:00 ] 127.0.0.1 /lf/Public/js/js/pintuer.js
+ERR: 无法加载控制器:Public/js/js/pintuer.js
+
+[ 2015-04-30T11:50:28+08:00 ] 127.0.0.1 /lf/Public/js/admin.js
+ERR: 无法加载控制器:Public/js/admin.js
+
+[ 2015-04-30T11:50:28+08:00 ] 127.0.0.1 /lf/Public/js/jquery.js
+ERR: 无法加载控制器:Public/js/jquery.js
+
+[ 2015-04-30T11:50:28+08:00 ] 127.0.0.1 /lf/Public/js/respond.js
+ERR: 无法加载控制器:Public/js/respond.js
+
+[ 2015-04-30T11:56:12+08:00 ] 127.0.0.1 /lf/Public/css/pintuer.css
+ERR: 无法加载控制器:Public/css/pintuer.css
+
+[ 2015-04-30T11:56:12+08:00 ] 127.0.0.1 /lf/Public/css/admin.css
+ERR: 无法加载控制器:Public/css/admin.css
+
+[ 2015-04-30T11:56:12+08:00 ] 127.0.0.1 /lf/Public/js/js/pintuer.js
+ERR: 无法加载控制器:Public/js/js/pintuer.js
+
+[ 2015-04-30T11:56:12+08:00 ] 127.0.0.1 /lf/Public/js/jquery.js
+ERR: 无法加载控制器:Public/js/jquery.js
+
+[ 2015-04-30T11:56:12+08:00 ] 127.0.0.1 /lf/Public/js/admin.js
+ERR: 无法加载控制器:Public/js/admin.js
+
+[ 2015-04-30T11:56:12+08:00 ] 127.0.0.1 /lf/Public/js/respond.js
+ERR: 无法加载控制器:Public/js/respond.js
+
